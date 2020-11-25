@@ -16,7 +16,7 @@ Add to package.json
 ```
 {
   "dependencies": {
-    "swagger-router": "git+https://github.com/nguyenchr/swagger-router.git#master"
+    "swagger-router": "git+https://github.com/excelerateconsulting/swagger-router.git#master"
   }
 }
 ```

@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nguyenchr/swagger-router.git"
+    "url": "git+https://github.com/excelerateconsulting/swagger-router.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nguyenchr/swagger-router/issues"
+    "url": "https://github.com/excelerateconsulting/swagger-router/issues"
   },
-  "homepage": "https://github.com/nguyenchr/swagger-router#readme",
+  "homepage": "https://github.com/excelerateconsulting/swagger-router#readme",
   "devDependencies": {
     "body-parser": "^1.19.0",
     "chai": "^4.2.0",
