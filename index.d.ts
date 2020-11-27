@@ -1,4 +1,4 @@
-declare module "@luxuryescapes/router" {
+declare module "swagger-router" {
   import { Request, Response, Express } from "express";
 
   export function errorHandler(
