@@ -1,11 +1,11 @@
 declare module "swagger-router" {
-  import { Request, Response, Express } from "express";
+  import { Request, Response, Express, NextFunction, Handler, RequestHandler } from "express";
 
   export function errorHandler(
     err: Error,
     req: Request,
     res: Response,
-    next: Function
+    next: NextFunction
   ): void;
 
   interface Logger {
@@ -42,8 +42,6 @@ declare module "swagger-router" {
     };
   }
 
-  type Handler = (req: Request, res: Response, next?: Function) => Promise<void>;
-
   interface RouteSchema {
     request?: {
       query?: object;
@@ -60,7 +58,7 @@ declare module "swagger-router" {
     schema?: RouteSchema;
     isPublic?: boolean;
     preHandlers?: Handler[];
-    handlers: Handler[];
+    handlers: RequestHandler<any, any, any, any>[];
     tags?: string[];
     summary?: string;
     description?: string;
