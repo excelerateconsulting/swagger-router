@@ -24,7 +24,7 @@
     "chai-as-promised": "^7.1.1",
     "chai-http": "^4.3.0",
     "dirty-chai": "^2.0.1",
-    "express": "^4.21.0",
+    "express": "^4.21.1",
     "mocha": "^10.2.0",
     "sinon": "^7.5.0",
     "snazzy": "^8.0.0",
@@ -32,7 +32,7 @@
     "strummer": "^2.8.0"
   },
   "peerDependencies": {
-    "express": "^4.21.0"
+    "express": "^4.21.1"
   },
   "dependencies": {
     "swagger-ui-express": "^4.6.3",
